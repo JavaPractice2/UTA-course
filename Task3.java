@@ -1,12 +1,13 @@
 
 public class Task3 {
-	
 	public static void main(String[] args) {
-		
-		
-		double side_length = 10.0;
-		double square_area = side_length * side_length;
-		System.out.println(square_area);
+		 String a = "hello";
+		    a += "!";
+		    a += "123";
+		    int b = a.length();
+		    System.out.printf("a = %s\n", a);
+		    System.out.printf("The length of a is %d characters.\n", b);
+		    System.out.printf("The length of a is %d characters.\n", a.length());
 
 	}
 
